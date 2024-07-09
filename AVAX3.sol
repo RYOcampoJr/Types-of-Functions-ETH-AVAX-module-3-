@@ -7,11 +7,11 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 
-contract MetaTokenCu is ERC20, ERC20Burnable, Ownable {
+contract Module3Token is ERC20, ERC20Burnable, Ownable {
     uint256 public constant MAX_SUPPLY = 1000000 * (10 ** 18);
     
     constructor(address initialOwner)
-        ERC20("MetaTokenCu", "MTCU")
+        ERC20("Module3Token", "M3T")
         Ownable(initialOwner)
     {}
 
